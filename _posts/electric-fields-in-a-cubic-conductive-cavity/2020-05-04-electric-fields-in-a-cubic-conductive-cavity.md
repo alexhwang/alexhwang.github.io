@@ -2,6 +2,7 @@
 title: An embarrassing walkthrough | Electric fields in a conductive box/cavity/resonator (aka Loudon, The quantum theory of light, pg. 5)
 date: 2020-05-04
 tags: [electric, fields, conductive, box, cavity, resonator, Loudon]
+published: false
 ---
 # Intro
 

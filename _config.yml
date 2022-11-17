@@ -3,22 +3,23 @@ title: Alex Hwang
 description: >-
 lang: en-US
 timezone: Asia/Jakarta
-image: assets/img/headshot.jpeg # This image used for Open Graph more info https://ogp.me/
+image: assets/img/Yosemite.jpeg # This image used for Open Graph more info https://ogp.me/
 repo: 
-mode: dark # default theme "dark" | "light"
+mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Alex Hwang
   bio: >-
     Physics student playing with light and nanotechnology. <br><br>
-    Currently: <a href="https://www.churchillscholarship.org/">Churchill Scholar</a>/MPhil student at 
-    <a href="https://www.np.phy.cam.ac.uk/">NanoPhotonics Centre</a>, University of Cambridge.<br><br>
-    Previously: B.S. Physics, B.A. Electrical Engineering, <i>summa cum laude</i>, Rice University<br><br>
+    Currently: Applied Physics PhD student at Stanford University (<a href="https://linqs.stanford.edu">LINQS</a>) <br><br>
+    Previously: 
+    B.S. Physics, B.A. Electrical Engineering, <i>summa cum laude</i>, Rice University<br>
+    MPhil Physics, University of Cambridge (Churchill Scholar,  <a href="https://www.np.phy.cam.ac.uk/">NanoPhotonics Centre</a>)<br><br>
     Twitter: <a href="https://twitter.com/alexhwang">@alexhwang</a>
   username: username
   email: aykhwang at gmail
-  avatar: /assets/img/headshot.jpeg
+  avatar: /assets/img/Yosemite.jpeg
 
 # Url settings
 url: "https://klise.now.sh"
