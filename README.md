@@ -1,47 +1,64 @@
-# Klisé
+![Astro Nano](_astro_nano.png)
 
-Klisé is minimalist Jekyll theme for running a personal site and blog running on Jekyll.<br>
-For demo <a href="https://klise.now.sh" target="_blank">klise.now.sh</a>
+Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
 
-## Features
+Built with Astro, Tailwind and Typescript, an no frameworks.
 
-- Light & Dark Mode support :waxing_crescent_moon:
-- Customizable (using `.scss`)
-- Responsive (desktop, tab and mobile)
-- Mobile First Design
-- SEO Optimized
-- RSS Feed
-- Syntax Highlighter ([rouge](https://github.com/rouge-ruby/rouge))
-- Next & Previous Post
-- Comment layout, enable in frontmatter if you wish
-- Google analytics
-- HTML Minify ([compressed HTML](https://github.com/penibelst/jekyll-compress-html))
-- W3C **Validated**
-- Lighthouse and PageSpeed **Passed**
+It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
 
-![Lighthouse](./lighthouse.png)
+## 🚀 Deploy your own
 
-## Installation
+[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano)
 
-Run local server:
+## 📋 Features
 
-```bash
-git clone https://github.com/piharpi/jekyll-klise.git
-cd jekyll-klise
-bundle install
-bundle exec jekyll serve
-```
+- ✅ 100/100 Lighthouse performance
+- ✅ Responsive
+- ✅ Accessible
+- ✅ SEO-friendly
+- ✅ Typesafe
+- ✅ Minimal style
+- ✅ Light/Dark Theme
+- ✅ Animated UI
+- ✅ Tailwind styling
+- ✅ Auto generated sitemap
+- ✅ Auto generated RSS Feed
+- ✅ Markdown support
+- ✅ MDX Support (components in your markdown)
 
-Navigate to `localhost:4000`. You're Welcome, Fork and be Stargaze.
+## 💯 Lighthouse score
+![Astro Nano Lighthouse Score](_lighthouse.png)
 
-**Don't Forget** to change site icon, go to `jekyll-klise/assets/favicons` and replace with your own.
+## 🕊️ Lightweight
+No frameworks or added bulk
 
-## Contributing
+## ⚡︎ Fast
+Rendered in ~40ms on localhost
 
-If you see any typos or formatting errors in a post, or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!
+## 📄 Configuration
 
-Yeaaa feel free to open a pull request.
+The blog posts on the demo serve as the documentation and configuration.
 
-## License
+## 💻 Commands
 
-This project is open source and available under the [MIT License](LICENSE).
+All commands are run from the root of the project, from a terminal:
+
+Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run dev:network`     | Starts local dev server on local network         |
+| `npm run sync`            | Generates TypeScript types for all Astro modules.|
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run preview:network` | Preview build on local network                   |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run lint`            | Run ESLint                                       |
+| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+
+## 🏛️ License
+
+MIT
