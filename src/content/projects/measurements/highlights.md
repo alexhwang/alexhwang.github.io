@@ -6,4 +6,4 @@ image: "/measurement_setup.jpeg"
 imageWidth: "100%"
 ---
 
-The measurement setup I built includes lasers, mechanical stages, modulators, fiber optics, free space optics, analog/RF electronics, all programatically interfaced through the PC.
+The measurement setup I built includes lasers, mechanical stages, modulators, fiber optics, free space optics, analog/RF electronics, all programmatically interfaced through the PC.
