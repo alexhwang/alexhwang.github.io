@@ -41,17 +41,14 @@ const work = await Promise.all(
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
     <div class="space-y-16">
-      <section class="flex gap-8 items-center">
-        <article class="animate space-y-4 prose-sm flex-1">
-          <Bio />
-        </article>
-        <div class="animate flex flex-col gap-3 shrink-0 items-center w-36">
+      <section class="flex flex-col items-center gap-6">
+        <div class="animate flex flex-row gap-6 items-center justify-center">
           <img
             src="/Yosemite_Self.jpeg"
             alt="Alex Hwang"
-            class="rounded-xl w-full object-cover"
+            class="rounded-xl w-36 object-cover shrink-0"
           />
-          <ul class="flex flex-col gap-1 text-center text-sm font-serif">
+          <ul class="flex flex-col gap-1 text-sm font-serif">
             {SOCIALS.map(SOCIAL => (
               <li class="text-nowrap">
                 <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
@@ -66,6 +63,9 @@ const work = await Promise.all(
             </li>
           </ul>
         </div>
+        <article class="animate space-y-4 prose-sm w-full">
+          <Bio />
+        </article>
       </section>
 
       <section class="animate space-y-6 prose-sm">
